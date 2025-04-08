@@ -6,7 +6,7 @@ editor: visual
 
 ## Gruppenmitglieder A5:
 
-Linnea Lund,
+Linnea Lund, Melina Esen,
 
 ## Quarto
 
