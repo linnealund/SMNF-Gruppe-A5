@@ -6,7 +6,7 @@ editor: visual
 
 ## Gruppenmitglieder A5:
 
-Linnea Lund, Melina Esen, Eric Ansorge, Sophie Spektor
+Linnea Lund, Melina Esen, Eric Ansorge, Sophie Spektor und Lina Woeste
 
 ## Quarto
 
