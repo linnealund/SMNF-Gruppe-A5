@@ -5,6 +5,7 @@ author: "Melina Esen, Eric Ansorge, Sophie Spektor, Lina Woeste und Linnea Lund"
 format:
     html: default
     pdf: default
+      papersize: "a4"
 number-sections: true
 number-depth: 1
 fontsize: "12"
