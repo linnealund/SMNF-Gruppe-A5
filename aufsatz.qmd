@@ -10,6 +10,9 @@ number-sections: true
 number-depth: 1
 fontsize: "12"
 editor: visual
+bibliography: references.bib
+csl: apa.csl
+style: "american-psychological-association"
 ---
 
 # Einleitung
@@ -21,3 +24,5 @@ editor: visual
 # Ergebnisse
 
 # Diskussion
+
+### Literaturverzeichnis
