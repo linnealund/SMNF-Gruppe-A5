@@ -51,15 +51,17 @@ Der Einsatz von KI-Tools, wie z.B. ChatGPT erfolgt transparent und verantwortung
 
 # Literaturübersicht
 
-Im digitalen Zeitalter häufen sich Risiken in Bezug auf gesellschaftliches Vertrauen und Fehlinformationen in den Sozialen Medien ([@kumar_feature_2024]). Die erste Studie, die wir für unsere Forschungsfrage heranziehen, kombiniert Ergebnisse aus einer Reihe von Studien von 2014 bis 2024, die sich mit der Thematik der Aufdeckung von Misinformation beschäftigen. Hieraus entwickelt die Studie, inwiefern sich Künstliche Intelligenz auf eine Abschwächung dieses Problems positiv auswirken kann und welche Entwicklungen im beobachteten Zeitraum in diesem Bereich stattgefunden haben [@kumar_feature_2024].
+Im digitalen Zeitalter häufen sich Risiken in Bezug auf gesellschaftliches Vertrauen und Fehlinformationen in den Sozialen Medien [@kumar_feature_2024]. Die erste Studie, die wir für unsere Forschungsfrage heranziehen, kombiniert Ergebnisse aus einer Reihe von Studien von 2014 bis 2024, die sich mit der Thematik der Aufdeckung von Misinformation beschäftigen. Hieraus entwickelt die Studie, inwiefern sich Künstliche Intelligenz auf eine Abschwächung dieses Problems positiv auswirken kann und welche Entwicklungen im beobachteten Zeitraum in diesem Bereich stattgefunden haben [@kumar_feature_2024].
 
 Diese Studie hilft uns dabei eine gute Grundlage für die Thematik zu bilden und die aktuelle Entwicklung zu visualisieren.
 
-Der Artikel “*Blockchain for Social Good: Combating Misinformation on the Web with AI and Blockchain”* behandelt die Problematik, dass Künstliche Intelligenz sowohl zur Verbreitung von Misinformation beiträgt (z.B. durch Deepfakes), als auch zu deren Bekämpfung eingesetzt werden kann (z.B. durch Erkennungssysteme). Mithilfe von Kombination mit der Blockchain-Technologie ist es möglich Inhalte besser zu prüfen und Falschinformationen einzudämmen. Damit wird die doppelte Rolle der Künstlichen Intelligenz als Quelle und Werkzeug im Kampf gegen Misinformationen verdeutlicht [@seneviratne_blockchain_2022].
+Der Artikel “*Blockchain for Social Good: Combating Misinformation on the Web with AI and Blockchain”* [@seneviratne_blockchain_2022] behandelt die Problematik, dass Künstliche Intelligenz sowohl zur Verbreitung von Misinformation beiträgt (z.B. durch Deepfakes), als auch zu deren Bekämpfung eingesetzt werden kann (z.B. durch Erkennungssysteme). Mithilfe von Kombination mit der Blockchain-Technologie ist es möglich Inhalte besser zu prüfen und Falschinformationen einzudämmen. Damit wird die doppelte Rolle der Künstlichen Intelligenz als Quelle und Werkzeug im Kampf gegen Misinformationen verdeutlicht [@seneviratne_blockchain_2022].
 
 Wir ersehen es als wichtig, die Rolle von Künstlicher Intelligenz kritisch zu betrachten, auch die negative Nutzung zu erwägen und resultierend Lösungsansätze auszuarbeiten.
 
-Unser letzter Artikel beschäftigt sich mit dem Problem, dass Falschinformationen in verschiedenen Modalitäten verbreitet werden können (z.B. auch visuell, auditiv, etc.) und Künstliche Intelligenz zu jetzigem Stande nicht ausreichend in der Lage ist Multimodale Falschinformationen zu verarbeiten. Hierfür wurde ein Machine-Learning Modell entwickelt, welches lernt mehrere Modalitäten zu analysieren und Falschinformationen zu erkennen. Diese Studie weist auf mögliche, zukünftige Entwicklungsaspekte im Bereich der Künstlichen Intelligenz hin [@saeidnia_artificial_2025].
+Unser letzter Artikel beschäftigt sich mit dem Problem, dass Falschinformationen in verschiedenen Modalitäten verbreitet werden (z.B. auch visuell, auditiv, etc.) und aktuelle KI-Modelle nach jetzigem Stande nicht ausreichend in der Lage sind Multimodale Falschinformationen zu verarbeiten. Insbesondere das Unterstreichen von falschen Informationen mit echten Bildern ohne Zusammenhang, stellt hierbei ein Problem dar. Hierfür wurde ein Machine-Learning Modell entwickelt, welches lernt mehrere Modalitäten zu analysieren und Falschinformationen zu erkennen [@saeidnia_artificial_2025].
+
+Diese Studie weist auf mögliche, zukünftige Entwicklungsaspekte im Bereich der Künstlichen Intelligenz hin.
 
 # Methode
 
