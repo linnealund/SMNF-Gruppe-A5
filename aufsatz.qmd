@@ -65,7 +65,29 @@ Diese Studie weist auf mögliche, zukünftige Entwicklungsaspekte im Bereich der
 
 # Methode
 
+## Qualitative Methode
+
+Zur Beantwortung unserer Forschungsfrage haben wir uns für eine qualitative Methode entschieden, weil wir genauer verstehen wollten, wie Menschen über den Einsatz von Künstlicher Intelligenz gegen Misinformation denken. Besonders wichtig war uns, persönliche Meinungen, Erfahrungen und Einschätzungen zu hören. Gerade bei einem Thema wie KI, das viele Fragen aufwirft und sehr unterschiedlich wahrgenommen wird, hilft dieser Ansatz dabei, die Perspektiven möglicher Nutzer besser nachzuvollziehen.
+
+Wir haben gezielt zwei Personen aus unserem näheren Umfeld befragt, die sich in einem unterschiedlichen Ausmaß mit dem Thema beschäftigen. Eine Person hatte persönliche Berührungspunkte mit KI im Alltag, während die andere sich intensiver im akademischen Kontext mit Fragen rund um Künstliche Intelligenz und Misinformation auseinandersetzt.
+
+Die Interviews wurden leitfadengestützt durchgeführt und gleichzeitig mit dem Smartphone aufgezeichnet. Die Aufnahmen wurden mithilfe der Open-Source-Transkriptionssoftware Whisper transkribiert und anschließend gelöscht. Ebenso wurden die Interviewten anonymisiert.
+
+Die Analyse erfolgte mittels thematischer Analyse der Transkripte. Wir haben die Auswertung gemeinsam und synchron durchgeführt, um eine einheitliche Interpretation der Inhalte zu gewährleisten. Auf eine spezielle Analyse-Software wurde dabei verzichtet, da der Umfang der Daten das manuelle Arbeiten ermöglichte.
+
 # Ergebnisse
+
+## Qualitative Ergebnisse
+
+Für die Interviews haben wir insgesamt zwei NutzerInnen befragt und die Interviews dann analysiert. Dabei haben wir darauf geachtet, Personen mit unterschiedlichen Perspektiven und Vorkenntnissen auszuwählen. Eine Person hat sich selbst bereits mit diesem Thema im akademischen Kontext befasst und die andere Person nutzt KI manchmal in ihrem Alltag, hat desweiteren aber keine spezifischen Kenntnisse.
+
+| Name | Definition | Textstelle |
+|-----------------|----------------------------|----------------------------|
+| \[T1\] KI-Skeptik | Viele NutzerInnen vertrauen KI nur bedingt, da sie auch fehlerhaft ist und NutzerInnen die Funktionweise schwer nachvolziehen können. | "Denn nicht jede Person glaubt, was die KI sagt, weil die KI auch Missinformationen verbreiten kann. \[...\] Deswegen bin ich manchmal ein bisschen skeptisch, was die KI auch selbst von sich gibt." (A5_1, Zeile 107-110) |
+| \[T2\] Vereinfachte Darstellung | Um den Überblick behalten zu können, sollten die Antworten der KI in Stichpunkten oder kurzen Absätzen passieren. | "Dass man einen Überblick hat über die Informationen, die man da gerade kriegt. Genau und nicht, dass Information auf einmal erschlagen wird, weil das so viel ist." (A5_2, Zeile 168-171) |
+| \[T3\] Kontrolle über die Nutzung | Die NutzerInnen sollen selbst entscheiden können, wann und in welchen Umfang sie die KI nutzen. | "Ich bin eher dafür, die Möglichkeit zu haben, es an- und auszuschalten, da ich der Meinung bin, dass jeder seine eigenen Preferenzen hat und es auch Leute gibt, die nicht KI nutzen möchten \[...\]." (A5_1, Zeile 223-225) |
+
+... (Erläuterung der Ergebnisse aus der Tabelle)
 
 # Diskussion
 
