@@ -82,22 +82,22 @@ Die Analyse erfolgte mittels thematischer Analyse der Transkripte. Wir haben die
 Für die Interviews haben wir insgesamt zwei NutzerInnen befragt und die Interviews dann analysiert. Dabei haben wir darauf geachtet, Personen mit unterschiedlichen Perspektiven und Vorkenntnissen auszuwählen. Eine Person hat sich selbst bereits mit diesem Thema im akademischen Kontext befasst und die andere Person nutzt KI manchmal in ihrem Alltag, hat desweiteren aber keine spezifischen Kenntnisse.
 
 | Name | Definition | Textstelle |
-|------------------|---------------------------|---------------------------|
+|-------------------|---------------------------|---------------------------|
 | \[T1\] KI-Skepsis | Viele NutzerInnen vertrauen KI nur bedingt, da sie auch fehlerhaft ist und NutzerInnen die Funktionweise schwer nachvolziehen können. | "Denn nicht jede Person glaubt, was die KI sagt, weil die KI auch Missinformationen verbreiten kann. \[...\] Deswegen bin ich manchmal ein bisschen skeptisch, was die KI auch selbst von sich gibt." (A5_1, Zeile 107-110) |
-| \[T2\] Vereinfachte Darstellung | Um den Überblick behalten zu können, sollten die Antworten der KI in Stichpunkten oder kurzen Absätzen passieren. | "Dass man einen Überblick hat über die Informationen, die man da gerade kriegt. Genau und nicht, dass Information auf einmal erschlagen wird, weil das so viel ist." (A5_2, Zeile 168-171) |
+| \[T2\] Vereinfachte Darstellung | Um den Überblick behalten zu können, sollten die Antworten der KI in Stichpunkten oder kurzen Absätzen passieren. | "Dass man einen Überblick hat über die Informationen, die man da gerade kriegt." (A5_2, Zeile 168-169) |
 | \[T3\] Kontrolle über die Nutzung | Die NutzerInnen sollen selbst entscheiden können, wann und in welchen Umfang sie die KI nutzen. | "Ich bin eher dafür, die Möglichkeit zu haben, es an- und auszuschalten, da ich der Meinung bin, dass jeder seine eigenen Präferenzen hat und es auch Leute gibt, die nicht KI nutzen möchten \[...\]." (A5_1, Zeile 223-225) |
 
 Für die Interviews haben wir insgesamt zwei NutzerInnen befragt und die Interviews dann analysiert. Dabei haben wir darauf geachtet, Personen mit unterschiedlichen Perspektiven und Vorkenntnissen auszuwählen. Eine Person hat sich selbst bereits mit diesem Thema im akademischen Kontext befasst und die andere Person nutzt KI manchmal in ihrem Alltag, hat des weiteren aber keine spezifischen Kenntnisse.
 
 Beide Probanden haben Bedenken zur Glaubwürdigkeit der Aussagen der KI \[T1\] geäußert, besonders wenn es um Belegung der Aussagen durch entsprechende Quellen geht.
 
-Dies ist das Resultat aus vorherigen Erfahrungen mit KI. In diesen Fällen gab ihnen KI falsche Antworten und verbreitete somit selbst Missinformationen: „Da kann es aber nämlich auch passieren, dass es dann vielleicht auch falsche Quellen mit rein nimmt. Und dass dadurch dann auch die Antwort verfälscht wird.“ (A5_2, Zeile 66-68) Daraus folgt also die Skepsis zur weiteren Nutzung von KI.
+Dies ist das Resultat aus vorherigen Erfahrungen mit KI. In diesen Fällen gab ihnen KI falsche Antworten und verbreitete somit selbst Missinformationen: „Da kann es aber nämlich auch passieren, dass es dann vielleicht auch falsche Quellen mit rein nimmt. Und dass dadurch dann auch die Antwort verfälscht wird.“ (A5_2, Zeile 62-64) Daraus folgt also die Skepsis zur weiteren Nutzung von KI.
 
 Als Lösungsansatz nannte eine Person A5_1 eine hohe Transparenz der KI: „Man muss wissen, woher die KI ihre Quellen hat, ihre Belege, ihre Beispiele oder auch aus welchen Quellen ihre Aussage kommt. Das ist auf jeden Fall sehr wichtig, damit die Richtigkeit der Aussagen wirklich belegt werden kann.“ (A5_1, Zeile 118-122)
 
 In beiden Interviews wurde die Wichtigkeit, einen guten Überblick \[T2\] behalten zu können, hervorgehoben. Die Antworten der künstlichen Intelligenz sollen möglichst kurz und präzise in Textformat dargestellt werden, beispielsweise in Stichpunkten oder auch kurzen Absätzen. „\[…\] wenn es ein langer Paragraph ist, dann bitte mit vorgehobenen Wörtern, weil es sich einfach einfacher beim Lesen macht und ich bevorzuge einfach Stichpunkte.“ (A5­\_1, Zeile 244-246) So gewährleistet man, dass die NutzerInnen die Informationsmenge gut verarbeiten können und das Interagieren mit der KI als angenehm empfunden wird.
 
-Unsere ProbandInnen betonen zudem, dass die NutzerInnen selbst entscheiden können sollen, wann und wie sie die KI nutzen wollen \[T3\]. Die persönlichen Präferenzen sind unterschiedlich und es ist wichtig, diese im Rahmen der KI zu beachten. Eine Person betont hier aber auch den Gegenfall, wenn die KI eben nicht immer automatisch aktiviert ist: „ \[…\] aber würde man ja auch die Missinformation halt sehen und vielleicht auch denken, dass es wahr ist und das glauben.“ (A5_2, Zeile 155-157)
+Unsere ProbandInnen betonen zudem, dass die NutzerInnen selbst entscheiden können sollen, wann und wie sie die KI nutzen wollen \[T3\]. Die persönlichen Präferenzen sind unterschiedlich und es ist wichtig, diese im Rahmen der KI zu beachten. Eine Person betont hier aber auch den Gegenfall, wenn die KI eben nicht immer automatisch aktiviert ist: „ \[…\] aber würde man ja auch die Missinformation halt sehen und vielleicht auch denken, dass es wahr ist und das glauben.“ (A5_2, Zeile 153-155)
 
 # Diskussion
 
