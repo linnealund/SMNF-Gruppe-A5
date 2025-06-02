@@ -75,6 +75,28 @@ Die Interviews wurden leitfadengestützt durchgeführt und gleichzeitig mit dem 
 
 Die Analyse erfolgte mittels thematischer Analyse der Transkripte. Wir haben die Auswertung gemeinsam und synchron durchgeführt, um eine einheitliche Interpretation der Inhalte zu gewährleisten. Auf eine spezielle Analyse-Software wurde dabei verzichtet, da der Umfang der Daten das manuelle Arbeiten ermöglichte.
 
+## Quantitative Methode
+
+![](images/PAKO_E~1.PNG)
+
+Zur Untersuchung von möglichen Unterschieden zwischen evaluativer und empfehlender künstlicher Intelligenz, besonders in Bezug auf Variablen wie Workload, Genauigkeit, Vertrauen und weitere, wurde ein between-subjects-Design gewählt. Hierbei werden TeilnehmerInnen zufällig eine von den zwei KI-Varianten zugeteilt, wodurch je die Hälfte der Beantwortungen sich auf eine der KI-Varianten beziehen. Auch beinhaltet unsere Studie ein within-subject-Design, welches zuerst das Bewerten ohne und folgend mit KI-Unterstützung vorsieht. Insgesamt haben wir uns für eine Kombination aus beiden und somit zu einem Mixed Design entschieden. 
+
+Der Ablauf unserer Studie sieht zu Beginn das Ausfüllen einer Datenschutzerklärung vor. Hier wird sichergestellt, dass die TeilnehmerInnen über die Handhabung ihrer persönlichen Daten informiert werden und sie über die Datenschutzrichtlinien aufgeklärt werden. Hierauf folgt ein Pre-Test-Fragebogen, welcher die grundlegenden Merkmale unserer ProbandInnen erfragt, wie zum Beispiel das Alter. Durch diese Merkmale beziehungsweise Variablen lassen sich die Daten einordnen und analysieren. Mit einem kleinen Tutorial wird man in die kommenden Aufgaben eingeführt. Im nächsten Ablaufschritt beginnt man nun mit den Experimenten. Hier werden die TeilnehmerInnen dazu aufgefordert 10 Posts ohne die Hilfe von künstlicher Intelligenz als Misinformation oder korrekte Information zu klassifizieren. Nach der Bewertung dieser Posts folgt ein Post-Baseline-Fragebogen, um die Empfindungen der Arbeitsbelastung der zuvor ausgeführten Aufgabe festzustellen. Nun kommt es zum nächsten Experiment, wo nicht wie zuvor nur die ProbandInnen über die Bewertung der Posts entscheiden, sondern auch KI genutzt wird. Eingeteilt werden die ProbandInnen zufällig zu einer von zwei Experiment-Versionen. Die erste bezieht eine evaluierende KI ein und die zweite eine empfehlende KI. Hier durchlaufen sie wie zuvor 10 Posts und werden aufgefordert diese zu klassifizieren. Zum Abschluss der Studie füllen sie einen finalen Post-Test-Fragebogen aus, werden verabschiedet und erhalten eine kurze Danksagung für ihre Teilnahme.  
+
+Für die Durchführung unserer Studie wurden zumal die ProbandInnen rekrutiert. Die geplante Anzahl beträgt 15 bis 20 TeilnehmerInnen, diese müssen über 18 Jahre alt sein und dürfen derzeit nicht an dem Modul SMNF an der Universität Lübeck teilnehmen. Auch sollen sie aus verschiedenen Altersbereichen stammen. Dies stellt sicher, dass die TeilnehmerInnen aus verschiedenen Bereichen und ohne spezifische Vorerfahrung aus dem Modul, unterschiedliche Einblicke in die Studie einbringen.  
+
+Die Erhebung findet vom 24.05.2025 bis zum 02.06.2025 in Form einer Online-Umfrage statt. Durchgeführt wird diese an einem Rechner oder Tablet. 
+
+Zur Erhebung der gesammelten Daten werden verschieden Fragebögen genutzt. Bevor das eigentliche Experiment anfängt, werden die ProbandInnen über verschiedene demographische Daten gefragt, welche verschiedene Skalen nutzen (bspw. eine nominale Skala für die Geschlechtsangabe und ordinale Skalen für die Abschlüsse der ProbandInnen). Als zweiter Teil des Pre-Test-Fragebogen werden den ProbandInnen Fragen zu ihrer interaktionsbezogenen Technikaffinität gestellt, welche eine metrische Skala nutzen [@franke_personal_2019].
+
+Während des Experimentes müssen die ProbandInnen nun eine Falschinformation identifizieren (Ja oder nein) und das System speichert die Korrektheit der Entscheidung (Richtig oder falsch) mithilfe einer binären Skala. Außerdem werden die Reaktionszeit und Trefferquote des zweiten Tasks in einer metrischen Skala gemessen. 
+
+Nach dem Baseline-Experiment (ohne KI-Unterstützung) sowie nach dem Durchlauf mit KI-Unterstützung werden die ProbandInnen nach ihrer Beanspruchung in verschiedenen Bereichen gefragt. Dies wird im Rahmen einer metrischen Skala gespeichert [@grippenkoven_dlr-wat_2018]. Zusätzlich wird nach dem zweiten Durchlauf auch mithilfe einer metrischen Skala abgefragt, wie viel die ProbandInnen über die Informationsverarbeitung des Systems wissen und wie sie es einschätzen können [@schrills_subjective_2021].
+
+Als nächstes wird abgefragt, wie vertrauensvoll und verlässlich die KI bzw. das System wahrgenommen wird [@madsen_measuring_2000]. Zusätzlich werden allgemeine Fragen zur Wahrnehmung des Systems gestellt [@laugwitz_construction_2008] Beide Fragebögen nutzen die metrische Skala. 
+
+Und zuletzt sollen die ProbandInnen die allgemeine Gebrauchstauglichkeit des Systems bewerten mithilfe einer metrischen System Usability Scale [@gao_multi-language_2020].
+
 # Ergebnisse
 
 ## Qualitative Ergebnisse
@@ -82,7 +104,7 @@ Die Analyse erfolgte mittels thematischer Analyse der Transkripte. Wir haben die
 Für die Interviews haben wir insgesamt zwei NutzerInnen befragt und die Interviews dann analysiert. Dabei haben wir darauf geachtet, Personen mit unterschiedlichen Perspektiven und Vorkenntnissen auszuwählen. Eine Person hat sich selbst bereits mit diesem Thema im akademischen Kontext befasst und die andere Person nutzt KI manchmal in ihrem Alltag, hat desweiteren aber keine spezifischen Kenntnisse.
 
 | Name | Definition | Textstelle |
-|-------------------|---------------------------|---------------------------|
+|------------------------|------------------------|------------------------|
 | \[T1\] KI-Skepsis | Viele NutzerInnen vertrauen KI nur bedingt, da sie auch fehlerhaft ist und NutzerInnen die Funktionweise schwer nachvolziehen können. | "Denn nicht jede Person glaubt, was die KI sagt, weil die KI auch Missinformationen verbreiten kann. \[...\] Deswegen bin ich manchmal ein bisschen skeptisch, was die KI auch selbst von sich gibt." (A5_1, Zeile 107-110) |
 | \[T2\] Vereinfachte Darstellung | Um den Überblick behalten zu können, sollten die Antworten der KI in Stichpunkten oder kurzen Absätzen passieren. | "Dass man einen Überblick hat über die Informationen, die man da gerade kriegt." (A5_2, Zeile 168-169) |
 | \[T3\] Kontrolle über die Nutzung | Die NutzerInnen sollen selbst entscheiden können, wann und in welchen Umfang sie die KI nutzen. | "Ich bin eher dafür, die Möglichkeit zu haben, es an- und auszuschalten, da ich der Meinung bin, dass jeder seine eigenen Präferenzen hat und es auch Leute gibt, die nicht KI nutzen möchten \[...\]." (A5_1, Zeile 223-225) |
@@ -102,3 +124,28 @@ Unsere ProbandInnen betonen zudem, dass die NutzerInnen selbst entscheiden könn
 # Diskussion
 
 ## Literaturverzeichnis
+
+::: {#refs}
+:::
+
+## Anhang 1 - Rekrutierungstext
+
+TeilnehmerInnen für KI-Studie gesucht!
+
+Für unsere Studie zum Thema KI-Unterstützungssysteme als Hilfsmittel zur Erkennung von Falschinformationen suchen wir ProbandInnen. Dabei untersuchen wir den Umgang mit solchen KI-Unterstützungssysteme
+
+Einschlusskriterien sind:
+
+Du bist mindestens 18 Jahre alt
+
+Du nimmst derzeit nicht am Modul Statistik und Methoden der Nutzenden-Forschung an der Uni Lübeck teil
+
+Du hast einen Laptop/PC oder Tablet, an dem du die online Studie ausfüllen kannst
+
+Die Teilnahme dauert ca. 45-60 Minuten und erfolgt online. Alle Daten werden anonym behandelt.
+
+Interesse geweckt? Dann nimm jetzt über folgenden Link teil: <https://dsslab.hciuse.sh/study/pilot?groupId=gr-a5>
+
+Vielen Dank für deine Unterstützung!
+
+Linnea, Sophie, Mel, Lina und Eric
