@@ -97,6 +97,10 @@ Als nächstes wird abgefragt, wie vertrauensvoll und verlässlich die KI bzw. da
 
 Und zuletzt sollen die ProbandInnen die allgemeine Gebrauchstauglichkeit des Systems bewerten mithilfe einer metrischen System Usability Scale [@gao_multi-language_2020].
 
+Die Analyse der Daten erfolgt bei dieser Studie anhand von t-Tests und Korrelation. Der t-Test überprüft, ob es einen signifikanten Unterschied zwischen den Mittelwerten von zwei Gruppen gibt. Dies bietet sich besonders zwischen den Variablen „Systemtyp“, also die Nutzung von einer der beiden KI-Versionen oder ohne KI, und der Variable „Ergebnis“. Wir untersuchen also, wie die Korrektheit der Antworten der ProbandInnen von der Nutzung eines KI-Modells anhängig ist. 
+
+Mit der Korrelation lässt sich die lineare Beziehung zwischen zwei Variablen ermitteln. Für diese analysieren wir die Werte der unabhängigen Variable „Alter“ in Bezug zu der abhängigen Variable „Perceived Reliability“, welche das Vertrauen in KI repräsentiert [@madsen_measuring_2000]. Hiermit untersuchen wir, ob das Vertrauen in KI sich abhängig vom Alter unterscheidet. 
+
 # Ergebnisse
 
 ## Qualitative Ergebnisse
