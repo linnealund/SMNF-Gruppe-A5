@@ -51,9 +51,9 @@ Der Einsatz von KI-Tools, wie z.B. ChatGPT erfolgt transparent und verantwortung
 
 # Einleitung
 
-Misinformation stellt ein zentrales gesellschaftliches Problem unserer Zeit dar (Lewandowsky et al., 2017). Falsche oder irreführende Informationen verbreiten sich rasant über soziale Netzwerke und beeinflussen die Meinungsbildung, politische Entscheidungsprozesse oder auch das gesellschaftliche Zusammenleben.  
+Desinformation stellt ein zentrales gesellschaftliches Problem unserer Zeit dar (Lewandowsky et al., 2017). Falsche oder irreführende Informationen verbreiten sich rasant über soziale Netzwerke und beeinflussen die Meinungsbildung, politische Entscheidungsprozesse oder auch das gesellschaftliche Zusammenleben.  
 
-Vor diesem Hintergrund stellt sich die Frage, wie man Misinformationen effektiv entgegenwirken kann.  
+Vor diesem Hintergrund stellt sich die Frage, wie man Desinformationen effektiv entgegenwirken kann.  
 
 Traditionelle manuelle Fact-Checking-Prozesse stoßen angesichts der Menge und Geschwindigkeit der verbreiteten Informationen an ihre Grenzen. Hierzu rückt der Einsatz Künstlicher Intelligenz (KI) immer stärker in den Fokus. KI-Systeme können große Datenmengen automatisiert analysieren und effizient bewerten. Bereits heute werden solche Systeme in verschiedenen Bereichen eingesetzt, etwa in sozialen Netzwerken oder auf Nachrichtenplattformen. Hier sollen sie dabei helfen, den Wahrheitsgehalt von Informationen zuverlässig, schnell und in großem Umfang zu überprüfen.  
 
@@ -61,7 +61,7 @@ Die Motivation dieser Arbeit liegt darin, das Potenzial von KI als Werkzeug zur 
 
 Denn hierbei spielt besonders das Vertrauen der NutzerInnen in diese KI-Systeme eine entscheidende Rolle für deren Wirksamkeit und Akzeptanz (Logg et al., 2019). Nur wenn die NutzerInnen den Bewertungen der KI vertrauen, können diese KI-Systeme auch ihr volles Potenzial entfalten. 
 
-Ziel dieser Arbeit ist es daher, zu untersuchen, welche Bedingungen erfüllt sein müssen, damit KI gestützte Systeme effektiv und verantwortungsvoll im Kampf gegen Misinformation eingesetzt werden können. 
+Ziel dieser Arbeit ist es daher, zu untersuchen, welche Bedingungen erfüllt sein müssen, damit KI gestützte Systeme effektiv und verantwortungsvoll im Kampf gegen Desinformation eingesetzt werden können. 
 
 Im Zentrum steht daher die folgende Forschungsfrage: 
 
@@ -89,7 +89,7 @@ Diese Studie weist auf mögliche, zukünftige Entwicklungsaspekte im Bereich der
 
 ## Qualitative Methode
 
-Zur Beantwortung unserer Forschungsfrage haben wir uns für eine qualitative Methode entschieden, weil wir genauer verstehen wollten, wie Menschen über den Einsatz von Künstlicher Intelligenz gegen Misinformation denken. Besonders wichtig war uns, persönliche Meinungen, Erfahrungen und Einschätzungen zu hören. Gerade bei einem Thema wie KI, das viele Fragen aufwirft und sehr unterschiedlich wahrgenommen wird, hilft dieser Ansatz dabei, die Perspektiven möglicher Nutzer besser nachzuvollziehen.
+Zur Beantwortung unserer Forschungsfrage haben wir uns für eine qualitative Methode entschieden, weil wir genauer verstehen wollten, wie Menschen über den Einsatz von Künstlicher Intelligenz gegen Misinformation denken. Besonders wichtig war uns, persönliche Meinungen, Erfahrungen und Einschätzungen zu hören. Gerade bei einem Thema wie KI, das viele Fragen aufwirft und sehr unterschiedlich wahrgenommen wird, hilft dieser Ansatz dabei die Perspektiven möglicher Nutzer besser nachzuvollziehen.
 
 Wir haben gezielt zwei Personen aus unserem näheren Umfeld befragt, die sich in einem unterschiedlichen Ausmaß mit dem Thema beschäftigen. Eine Person hatte persönliche Berührungspunkte mit KI im Alltag, während die andere sich intensiver im akademischen Kontext mit Fragen rund um Künstliche Intelligenz und Misinformation auseinandersetzt.
 
@@ -101,33 +101,43 @@ Die Analyse erfolgte mittels thematischer Analyse der Transkripte. Wir haben die
 
 ![Studienablauf](images/PAKO_E~1.PNG){#fig-studienablauf}
 
-Zur Untersuchung von möglichen Unterschieden zwischen evaluativer und empfehlender künstlicher Intelligenz, besonders in Bezug auf Variablen wie Workload, Genauigkeit, Vertrauen und weitere, wurde ein between-subjects-Design gewählt. Hierbei werden TeilnehmerInnen zufällig eine von den zwei KI-Varianten zugeteilt, wodurch je die Hälfte der Beantwortungen sich auf eine der KI-Varianten beziehen. Auch beinhaltet unsere Studie ein within-subject-Design, welches zuerst das Bewerten ohne und folgend mit KI-Unterstützung vorsieht. Insgesamt haben wir uns für eine Kombination aus beiden und somit zu einem Mixed Design entschieden.
+Zur Untersuchung von möglichen Unterschieden zwischen evaluativer und empfehlender KI, besonders in Bezug auf Variablen wie Workload, Genauigkeit, Vertrauen und weitere, wurde ein gemischt faktorielles Design gewählt. Dieses setzt sich aus einer Within-Subjects-Faktorstufe und einer Between-Subjects-Faktorstufe zusammen.
 
-Der Ablauf unserer Studie sieht zu Beginn das Ausfüllen einer Datenschutzerklärung vor. Hier wird sichergestellt, dass die TeilnehmerInnen über die Handhabung ihrer persönlichen Daten informiert werden und sie über die Datenschutzrichtlinien aufgeklärt werden. Hierauf folgt ein Pre-Test-Fragebogen, welcher die grundlegenden Merkmale unserer ProbandInnen erfragt, wie zum Beispiel das Alter. Durch diese Merkmale beziehungsweise Variablen lassen sich die Daten einordnen und analysieren. Mit einem kleinen Tutorial wird man in die kommenden Aufgaben eingeführt. Im nächsten Ablaufschritt beginnt man nun mit den Experimenten. Hier werden die TeilnehmerInnen dazu aufgefordert 10 Posts ohne die Hilfe von künstlicher Intelligenz als Misinformation oder korrekte Information zu klassifizieren. Nach der Bewertung dieser Posts folgt ein Post-Baseline-Fragebogen, um die Empfindungen der Arbeitsbelastung der zuvor ausgeführten Aufgabe festzustellen. Nun kommt es zum nächsten Experiment, wo nicht wie zuvor nur die ProbandInnen über die Bewertung der Posts entscheiden, sondern auch KI genutzt wird. Eingeteilt werden die ProbandInnen zufällig zu einer von zwei Experiment-Versionen. Die erste bezieht eine evaluierende KI ein und die zweite eine empfehlende KI. Hier durchlaufen sie wie zuvor 10 Posts und werden aufgefordert diese zu klassifizieren. Zum Abschluss der Studie füllen sie einen finalen Post-Test-Fragebogen aus, werden verabschiedet und erhalten eine kurze Danksagung für ihre Teilnahme.  
+Die TeilnehmerInnen bewerten im Rahmen eines Within-Subjects-Designs zunächst Nachrichten ohne und anschließend mit Unterstützung durch ein KI-System.
+
+Zusätzlich wurde im Sinne eines Between-Subjects-Designs variiert, welche Art von KI zum Einsatz kam, entweder ein evaluatives Modell oder ein empfehlendes Modell. Die TeilnehmerInnen wurden hierfür zufällig einer der beiden KI-Varianten zugeteilt, sodass sich jeweils etwa die Hälfte der Antworten auf eine der beiden Versionen bezieht.
+
+Der Ablauf unserer Studie sah zu Beginn das Ausfüllen einer Datenschutzerklärung vor. Hier wurde sichergestellt, dass die TeilnehmerInnen über die Handhabung ihrer persönlichen Daten informiert wurden und sie über die Datenschutzrichtlinien aufgeklärt wurden.
+
+Darauf folgt ein Pre-Test-Fragebogen, welcher die grundlegenden Merkmale unserer ProbandInnen erhob, wie zum Beispiel das Alter. Durch diese Merkmale beziehungsweise Variablen ließen sich die Daten einordnen und analysieren. Ein kleines Tutorial führte anschließend in die kommenden Aufgaben ein.
+
+Im nächsten Ablaufschritt begannen die TeilnehmerInnen mit den Experimenten. Hier wurden sie dazu aufgefordert zehn Posts ohne die Hilfe von KI als Misinformation oder korrekte Information zu klassifizieren. Nach der Bewertung dieser Posts folgte ein Post-Baseline-Fragebogen, um die Empfindungen der Arbeitsbelastung der zuvor ausgeführten Aufgabe festzustellen.
+
+Anschließend begann das nächste Experiment, wo nicht wie zuvor nur die ProbandInnen über die Bewertung der Posts entschieden, sondern auch KI eingebunden wurde. Eingeteilt wurden die ProbandInnen zufällig zu einer von zwei Experiment-Versionen. Die erste beinhaltete eine evaluierende KI und die zweite eine empfehlende KI. Hier durchliefen sie wie zuvor zehn Posts und wurden aufgefordert diese zu klassifizieren.
+
+Zum Abschluss der Studie füllten sie einen finalen Post-Test-Fragebogen aus, wurden verabschiedet und erhielten eine kurze Danksagung für ihre Teilnahme.  
 
 Für die Durchführung unserer Studie wurden zumal die ProbandInnen rekrutiert. Die geplante Anzahl beträgt 15 bis 20 TeilnehmerInnen, diese müssen über 18 Jahre alt sein und dürfen derzeit nicht an dem Modul SMNF an der Universität Lübeck teilnehmen. Auch sollen sie aus verschiedenen Altersbereichen stammen. Dies stellt sicher, dass die TeilnehmerInnen aus verschiedenen Bereichen und ohne spezifische Vorerfahrung aus dem Modul, unterschiedliche Einblicke in die Studie einbringen.  
 
-Die Erhebung findet vom 24.05.2025 bis zum 02.06.2025 in Form einer Online-Umfrage statt. Durchgeführt wird diese an einem Rechner oder Tablet. 
+Die Erhebung fand vom 24.05.2025 bis zum 02.06.2025 in Form einer Online-Umfrage statt. Durchgeführt wurde diese an einem Rechner oder Tablet. 
 
-Zur Erhebung der gesammelten Daten werden verschieden Fragebögen genutzt. Bevor das eigentliche Experiment anfängt, werden die ProbandInnen über verschiedene demographische Daten gefragt, welche verschiedene Skalen nutzen (bspw. eine nominale Skala für die Geschlechtsangabe und ordinale Skalen für die Abschlüsse der ProbandInnen). Als zweiter Teil des Pre-Test-Fragebogen werden den ProbandInnen Fragen zu ihrer interaktionsbezogenen Technikaffinität gestellt, welche eine metrische Skala nutzen [@franke_personal_2019].
+Zur Erhebung der gesammelten Daten wurden verschiedene Fragebögen genutzt. Bevor das eigentliche Experiment anfing, wurden die ProbandInnen über verschiedene demographische Daten gefragt, welche verschiedene Skalen nutzen (bspw. eine nominale Skala für die Geschlechtsangabe und ordinale Skalen für die Abschlüsse der ProbandInnen). Als zweiter Teil des Pre-Test-Fragebogen wurden den ProbandInnen Fragen zu ihrer interaktionsbezogenen Technikaffinität gestellt, welche eine metrische Skala nutzen [@franke_personal_2019].
 
-Während des Experimentes müssen die ProbandInnen nun eine Falschinformation identifizieren (Ja oder nein) und das System speichert die Korrektheit der Entscheidung (Richtig oder falsch) mithilfe einer binären Skala. Außerdem werden die Reaktionszeit und Trefferquote des zweiten Tasks in einer metrischen Skala gemessen. 
+Während des Experimentes mussten die ProbandInnen nun eine Falschinformation identifizieren (Ja oder nein) und das System speicherte die Korrektheit der Entscheidung (Richtig oder falsch) mithilfe einer binären Skala. Außerdem wurden die Reaktionszeit und Trefferquote des zweiten Tasks in einer metrischen Skala gemessen. 
 
 Nach dem Baseline-Experiment (ohne KI-Unterstützung) sowie nach dem Durchlauf mit KI-Unterstützung werden die ProbandInnen nach ihrer Beanspruchung in verschiedenen Bereichen gefragt. Dies wird im Rahmen einer metrischen Skala gespeichert [@grippenkoven_dlr-wat_2018]. Zusätzlich wird nach dem zweiten Durchlauf auch mithilfe einer metrischen Skala abgefragt, wie viel die ProbandInnen über die Informationsverarbeitung des Systems wissen und wie sie es einschätzen können [@schrills_subjective_2021].
 
 Als nächstes wird abgefragt, wie vertrauensvoll und verlässlich die KI bzw. das System wahrgenommen wird [@madsen_measuring_2000]. Zusätzlich werden allgemeine Fragen zur Wahrnehmung des Systems gestellt [@laugwitz_construction_2008] Beide Fragebögen nutzen die metrische Skala. 
 
-Und zuletzt sollen die ProbandInnen die allgemeine Gebrauchstauglichkeit des Systems bewerten mithilfe einer metrischen System Usability Scale [@gao_multi-language_2020].
+Und zuletzt sollten die ProbandInnen die allgemeine Gebrauchstauglichkeit des Systems mithilfe einer metrischen System Usability Scale [@gao_multi-language_2020] bewerten.
 
-Die Analyse der Daten erfolgt bei dieser Studie anhand von t-Tests und Korrelation. Der t-Test überprüft, ob es einen signifikanten Unterschied zwischen den Mittelwerten von zwei Gruppen gibt. Dies bietet sich besonders zwischen den Variablen „Systemtyp“, also die Nutzung von einer der beiden KI-Versionen oder ohne KI, und der Variable „Ergebnis“. Wir untersuchen also, wie die Korrektheit der Antworten der ProbandInnen von der Nutzung eines KI-Modells anhängig ist. 
+Die Analyse der Daten erfolgt bei dieser Studie anhand von t-Tests und Korrelation. Der t-Test überprüft, ob es einen signifikanten Unterschied zwischen den Mittelwerten von zwei Gruppen gibt. Dies bietet sich besonders zwischen den Variablen „Systemtyp“, also die Nutzung von einer der beiden KI-Versionen und der Variable „Ergebnis“. Wir untersuchen also, wie die Korrektheit der Antworten der ProbandInnen von der Nutzung eines KI-Modells anhängig ist. 
 
 Mit der Korrelation lässt sich die lineare Beziehung zwischen zwei Variablen ermitteln. Für diese analysieren wir die Werte der unabhängigen Variable „Alter“ in Bezug zu der abhängigen Variable „Perceived Reliability“, welche das Vertrauen in KI repräsentiert [@madsen_measuring_2000]. Hiermit untersuchen wir, ob das Vertrauen in KI sich abhängig vom Alter unterscheidet. 
 
 # Ergebnisse
 
 ## Qualitative Ergebnisse
-
-Für die Interviews haben wir insgesamt zwei NutzerInnen befragt und die Interviews dann analysiert. Dabei haben wir darauf geachtet, Personen mit unterschiedlichen Perspektiven und Vorkenntnissen auszuwählen. Eine Person hat sich selbst bereits mit diesem Thema im akademischen Kontext befasst und die andere Person nutzt KI manchmal in ihrem Alltag, hat desweiteren aber keine spezifischen Kenntnisse.
 
 | Name | Definition | Textstelle |
 |------------------------|------------------------|------------------------|
@@ -365,7 +375,7 @@ Aus unseren Daten ergibt sich, dass es zwar eine kleine Abnahme an Vertrauen in 
 
 # Diskussion
 
-**Beantwortung der Forschungsfrage**
+**Beantwortung der Forschungsfrage** 
 
 Die zentrale Forschungsfrage dieser Untersuchung lautete, ob sich der Anteil richtiger Antworten beim Erkennen von Desinformation in Abhängigkeit vom verwendeten KI-Modell unterscheidet und ob das Vertrauen in das jeweilige System mit dem Alter der NutzerInnen zusammenhängt. Die Ergebnisse des durchgeführten t-Tests zeigten keinen signifikanten Unterschied im Antwortverhalten zwischen den verschiedenen KI-Modellen. Daraus lässt sich schließen, dass die Art des eingesetzten Modells keinen entscheidenden Einfluss auf die Leistung der NutzerInnen beim Erkennen korrekter Informationen hatte. 
 
@@ -383,7 +393,7 @@ Gesellschaftlich relevant ist insbesondere die Erkenntnis, dass die reine Implem
 
  
 
-**Limitationen der Studie** 
+**Limitationen der Studie**
 
 Wie bei jeder empirischen Untersuchung sind die vorliegenden Ergebnisse unter Berücksichtigung einiger Limitationen zu interpretieren. Die Altersverteilung innerhalb der Stichprobe war relativ eng gefasst, wodurch insbesondere ältere Altersgruppen unterrepräsentiert waren. Dies erschwert generalisierbare Aussagen darüber, inwiefern Vertrauen in KI altersabhängig ausgeprägt ist. 
 
@@ -395,7 +405,7 @@ Darüber hinaus wurde nur ein bestimmter Typ von Desinformation behandelt. In an
 
  
 
-**Zukünftige Forschung** 
+**Zukünftige Forschung**
 
 Vor dem Hintergrund dieser Implikationen und Limitationen ergeben sich mehrere Ansatzpunkte für Folgestudien. Zunächst wäre eine differenziertere Analyse weiterer demographischer Variablen, wie Technikvertrauen oder politisches Interesse denkbar. 
 
