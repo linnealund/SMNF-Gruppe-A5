@@ -350,7 +350,7 @@ ggplot(summary_stats, aes(x = group, y = mean)) +
 
 Die Analyse erfolgte mittels eines unverbundenen T-Tests. Dabei haben wir untersucht, ob es innerhalb der Variable “Systemtyp” einen Unterschied in der Erfolgsquote bei der Aufdeckung von Desinformationen zwischen dem Evaluativen (E) und dem Empfehlenden (R) KI-System gibt. Dabei haben wir uns die Daten aller 176 ProbandInnen angeschaut.
 
-Aus unseren Daten (@fig-ttest) ergibt sich die folgende Untersuchung: Die Differenz der durchschnittlichen Korrektheit des evaluativen Modells (*M* = 0.76, *SD* = 0.16) und des empfehlenden Modells (M = 0.76, SD = 0.14) war nicht signifikant unterschiedlich (*t*(174) = -0.08, *p* \> .05). 
+Aus unseren Daten (@fig-ttest) ergibt sich die folgende Untersuchung: Die Differenz der durchschnittlichen Korrektheit des evaluativen Modells (*M* = 0.76, *SD* = 0.16) und des empfehlenden Modells (*M* = 0.76, *SD* = 0.14) war nicht signifikant unterschiedlich (*t*(174) = -0.08, *p* \> .05). 
 
 ```{r echo=FALSE, message=FALSE, results='hide'}
 cor_age_hct_r_all <- cor(surveydata$age, surveydata$hct, use = "complete.obs", method = "pearson")
