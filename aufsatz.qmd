@@ -51,6 +51,26 @@ Der Einsatz von KI-Tools, wie z.B. ChatGPT erfolgt transparent und verantwortung
 
 # Einleitung
 
+Misinformation stellt ein zentrales gesellschaftliches Problem unserer Zeit dar (Lewandowsky et al., 2017). Falsche oder irreführende Informationen verbreiten sich rasant über soziale Netzwerke und beeinflussen die Meinungsbildung, politische Entscheidungsprozesse oder auch das gesellschaftliche Zusammenleben.  
+
+Vor diesem Hintergrund stellt sich die Frage, wie man Misinformationen effektiv entgegenwirken kann.  
+
+Traditionelle manuelle Fact-Checking-Prozesse stoßen angesichts der Menge und Geschwindigkeit der verbreiteten Informationen an ihre Grenzen. Hierzu rückt der Einsatz Künstlicher Intelligenz (KI) immer stärker in den Fokus. KI-Systeme können große Datenmengen automatisiert analysieren und effizient bewerten. Bereits heute werden solche Systeme in verschiedenen Bereichen eingesetzt, etwa in sozialen Netzwerken oder auf Nachrichtenplattformen. Hier sollen sie dabei helfen, den Wahrheitsgehalt von Informationen zuverlässig, schnell und in großem Umfang zu überprüfen.  
+
+Die Motivation dieser Arbeit liegt darin, das Potenzial von KI als Werkzeug zur Bekämpfung von Fake-News zu untersuchen und dabei insbesondere aus der Perspektive der NutzerInnen vorzugehen. 
+
+Denn hierbei spielt besonders das Vertrauen der NutzerInnen in diese KI-Systeme eine entscheidende Rolle für deren Wirksamkeit und Akzeptanz (Logg et al., 2019). Nur wenn die NutzerInnen den Bewertungen der KI vertrauen, können diese KI-Systeme auch ihr volles Potenzial entfalten. 
+
+Ziel dieser Arbeit ist es daher, zu untersuchen, welche Bedingungen erfüllt sein müssen, damit KI gestützte Systeme effektiv und verantwortungsvoll im Kampf gegen Misinformation eingesetzt werden können. 
+
+Im Zentrum steht daher die folgende Forschungsfrage: 
+
+Welche Faktoren haben einen Einfluss bei der Nutzung von KI-Modellen als Tool zur Evaluation von Fake-News, insbesondere bezogen auf die Faktoren Funktionsart des Modells und Alter der NutzerInnen? 
+
+Zum einen nehmen wir die Perspektive der NutzerInnen ein, um zentrale Anforderungen, Erwartungen und Herausforderungen im Umgang mit KI gestützten Bewertungssystemen herauszuarbeiten. Hierdurch lassen sich zentrale Kernpunkte identifizieren, die für eine erfolgreiche und akzeptierte Integration solcher Systeme entscheidend sind. 
+
+Zum anderen werden spezifische Faktoren wie die Funktionsweise der KI-Modelle, sowie das Alter der NutzerInnen betrachtet. Anhand von Daten sollen auf dieser Basis konkrete Aussagen darüber getroffen werden, wie sich diese Merkmale auswirken. 
+
 # Literaturübersicht
 
 Im digitalen Zeitalter häufen sich Risiken in Bezug auf gesellschaftliches Vertrauen und Fehlinformationen in den Sozialen Medien [@kumar_feature_2024]. Die erste Studie, die wir für unsere Forschungsfrage heranziehen, kombiniert Ergebnisse aus einer Reihe von Studien von 2014 bis 2024, die sich mit der Thematik der Aufdeckung von Misinformation beschäftigen. Hieraus entwickelt die Studie, inwiefern sich Künstliche Intelligenz auf eine Abschwächung dieses Problems positiv auswirken kann und welche Entwicklungen im beobachteten Zeitraum in diesem Bereich stattgefunden haben [@kumar_feature_2024].
@@ -140,7 +160,7 @@ library(psych)
 library(gt)
 library(tinytex)
 
-study_data <- read.csv("C:/Users/linni/Documents/Statistik-Gruppe-A5/2025-06-10/open/data_combined.csv", header = TRUE, sep = ",", fill = TRUE)
+study_data <- read.csv("~/SMNF-Gruppe-A5/2025-06-10/open/data_combined.csv", header = TRUE, sep = ",", fill = TRUE)
 
 records_count_decision_correct_rate_E <- sum(!is.na(study_data$decision_correct_rate_E))
 records_count_decision_correct_rate_R <- sum(!is.na(study_data$decision_correct_rate_R))
@@ -234,7 +254,7 @@ Die Generalisierbarkeit können wir, da wir uns größtenteils auf die Eigenscha
 #| tbl-cap: "Statistische Kennzahlen der Variablen des t-Tests"
 
 metric_data_table <- data.frame(
-  Variable = c("Anteil richtiger Antworten - Evaluatives KI-Modell", "Anteil richtiger Antworten - Empfehlendes KI-Modell"),
+  Variable = c("Anteil richtiger Antworten evaluative KI", "Anteil richtiger Antworten empfehlende KI"),
   N = format(c(records_count_decision_correct_rate_E, records_count_decision_correct_rate_R), nsmall = 0),
   M = c(mean_frequencies_decision_correct_rate_E, mean_frequencies_decision_correct_rate_R),
   Mdn = c(median_frequencies_decision_correct_rate_E, median_frequencies_decision_correct_rate_R),
@@ -280,7 +300,6 @@ Unsere letzte Variable, die wir betrachtet haben, ist “Vertrauen ins System”
 ```{r echo=FALSE, message=FALSE}
 
 result_ttest <- t.test(decision_correct_R_data$decision_correct_rate_R, decision_correct_E_data$decision_correct_rate_E, var.equal = TRUE)
-print(result_ttest)
 
 result_correct_rate <- data.frame(
   value = c(decision_correct_R_data$decision_correct_rate_R, decision_correct_E_data$decision_correct_rate_E),
@@ -318,7 +337,7 @@ In der folgenden sieht man die aus der Studie ergebenen Werte, welche wir im Fol
 
 Aus unseren Daten ergibt sich, dass beide Modelle ähnlich gut funktioniert haben. Die Differenz der durchschnittlichen Korrektheit des evaluativen Modells (*M* = 0.76, *SD* = 0.16) und des empfehlenden Modells (*M* = 0.76, *SD* = 0.14) war nicht signifikant (*t*(174) = -0.08, *p* \> .05).
 
-```{r echo=FALSE, message=FALSE}
+```{r echo=FALSE, message=FALSE, results='hide'}
 cor_age_hct_r_all <- cor(surveydata$age, surveydata$hct, use = "complete.obs", method = "pearson")
 
 cor.test(surveydata$age, surveydata$hct, use = "complete.obs", method = "pearson")
@@ -345,6 +364,48 @@ Abbildung 2 stellt den Zusammenhang zwischen Age und Human-Computer-Trust dar.
 Aus unseren Daten ergibt sich, dass es zwar eine kleine Abnahme an Vertrauen in die KI gibt, je älter die ProbandInnen sind, jedoch reichen die Daten nicht aus, um einen eindeutigen Zusammenhang zwischen den beiden Variablen zu identifizieren. Es besteht also kein Zusammenhang zwischen dem Alter und dem Vertrauen in die Nutzung von KI (*r*(174) = -0.132 , *p* = .080). Das bedeutet, dass ein höheres Alter nicht direkt mit einem geringeren Vertrauen in die KI einhergeht.
 
 # Diskussion
+
+**Beantwortung der Forschungsfrage**
+
+Die zentrale Forschungsfrage dieser Untersuchung lautete, ob sich der Anteil richtiger Antworten beim Erkennen von Desinformation in Abhängigkeit vom verwendeten KI-Modell unterscheidet und ob das Vertrauen in das jeweilige System mit dem Alter der NutzerInnen zusammenhängt. Die Ergebnisse des durchgeführten t-Tests zeigten keinen signifikanten Unterschied im Antwortverhalten zwischen den verschiedenen KI-Modellen. Daraus lässt sich schließen, dass die Art des eingesetzten Modells keinen entscheidenden Einfluss auf die Leistung der NutzerInnen beim Erkennen korrekter Informationen hatte. 
+
+Auch die Korrelationsanalyse zwischen Alter und Vertrauen in das System ergab keinen signifikanten Zusammenhang. Das Vertrauen der NutzerInnen in die jeweilige KI war somit unabhängig vom Alter, wie unsere Nullhypothese aussagt. Die Forschungsfragen können also dahingehend beantwortet werden, dass weder das Modell selbst noch das Alter der ProbandInnen einen messbaren Einfluss auf Vertrauen oder Bewertungskompetenz zeigten. 
+
+ 
+
+**Implikationen für Wissenschaft und Gesellschaft** 
+
+Aus wissenschaftlicher Perspektive leisten die Ergebnisse einen Beitrag zur Diskussion um Nutzerwahrnehmung algorithmischer Systeme. Die Tatsache, dass kein signifikanter Unterschied zwischen verschiedenen KI-Modellen festgestellt wurde, könnte dafürsprechen, dass NutzerInnen in diesem Kontext nicht modellabhängig interagieren, sondern möglicherweise ein generalisiertes Vertrauen oder Misstrauen gegenüber KI-Systemen entwickeln. Dies steht im Einklang mit bisherigen Arbeiten zur algorithmischen Autorität und Nutzerakzeptanz (z. B. Yeomans et al., 2019). 
+
+Zudem lässt sich aus den Ergebnissen schließen, dass Alter, welches häufig als Einflussfaktor bei Technologieakzeptanz diskutiert wird, in diesem speziellen Fall keine Rolle spielte. Dies widerspricht teilweise der Annahme, dass ältere Personen pauschal weniger Vertrauen in neue Technologien haben. Stattdessen scheint es hier eher auf andere Merkmale anzukommen, welche nicht erfasst wurden. 
+
+Gesellschaftlich relevant ist insbesondere die Erkenntnis, dass die reine Implementierung einer KI nicht automatisch zu besserer Desinformationsbewertung oder erhöhtem Vertrauen führt. Die Ergebnisse legen nahe, dass technische Lösungen allein nicht ausreichen. Es braucht begleitende Maßnahmen, etwa durch Medienkompetenzförderung oder gezielte Aufklärung über Funktionsweisen und Grenzen von KI. 
+
+ 
+
+**Limitationen der Studie** 
+
+Wie bei jeder empirischen Untersuchung sind die vorliegenden Ergebnisse unter Berücksichtigung einiger Limitationen zu interpretieren. Die Altersverteilung innerhalb der Stichprobe war relativ eng gefasst, wodurch insbesondere ältere Altersgruppen unterrepräsentiert waren. Dies erschwert generalisierbare Aussagen darüber, inwiefern Vertrauen in KI altersabhängig ausgeprägt ist. 
+
+Ein weiterer kritischer Punkt betrifft die Verwendung eines hypothetischen Szenarios zur Bewertung von Desinformation. Obwohl dieses methodisch eine kontrollierte Vergleichbarkeit ermöglichte, spiegelt es reale Nutzungssituationen, wie etwa im Alltag oder auf sozialen Medien, nur bedingt wider. Faktoren wie Zeitdruck, Ablenkung oder soziale Kontexte, die typischerweise Einfluss auf Informationsverarbeitung und Entscheidungsverhalten nehmen, konnten nicht abgebildet werden. 
+
+Zudem wurde in der Untersuchung keine echte KI implementiert, sondern eine simulierte Darstellung verschiedener KI-Modelle eingesetzt. Diese Entscheidung erhöhte die Standardisierbarkeit, könnte jedoch zu Verzerrungen in der Nutzerwahrnehmung geführt haben.  
+
+Darüber hinaus wurde nur ein bestimmter Typ von Desinformation behandelt. In anderen Themenbereichen könnten NutzerInnen deutlich anders reagieren.  
+
+ 
+
+**Zukünftige Forschung** 
+
+Vor dem Hintergrund dieser Implikationen und Limitationen ergeben sich mehrere Ansatzpunkte für Folgestudien. Zunächst wäre eine differenziertere Analyse weiterer demographischer Variablen, wie Technikvertrauen oder politisches Interesse denkbar. 
+
+Auch naheliegend sind Feldstudien in einem realen Nutzungskontext. Solche Untersuchungen könnten erfassen, wie NutzerInnen auf tatsächliches Feedback reagieren und ob sich unter realistischen Bedingungen andere Muster im Vertrauen- und Antwortverhalten zeigen, was die externe Validität erhöhen würde. 
+
+Eine weiter Möglichkeit wäre die Durchführung von Langzeitstudien, um mögliche Gewöhnungseffekte zu erfassen. Denn Vertrauen in technologische Systeme, insbesondere in KI kann sich durch wiederholte Nutzung, sowie positive und negative Erfahrungen entwickeln, was durch punktuelle Erhebungen nicht erfassbar ist. 
+
+Abschließend kann die Nutzung adaptiver Systeme einen weiteren Forschungsansatz darstellen. So könnte etwa zwischen NutzerInnen mit hohem Grundvertrauen und solchen mit skeptischer Haltung differenziert werden, beispielsweise durch unterschiedliches Feedback oder unterschiedliche Transparenzlevel und Interaktionsstile. 
+
+Insgesamt zeigt sich, dass die Integration menschzentrierter und kontextsensitiver Perspektiven entscheiden ist, um das Zusammenspiel zwischen NutzerInnen und System langfristig besser zu verstehen und gezielt zu gestalten. 
 
 ## Literaturverzeichnis
 
