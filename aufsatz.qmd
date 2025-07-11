@@ -172,6 +172,8 @@ library(tinytex)
 
 study_data <- read.csv("~/SMNF-Gruppe-A5/2025-06-10/open/data_combined.csv", header = TRUE, sep = ",", fill = TRUE)
 
+View(data_combined)
+
 records_count_decision_correct_rate_E <- sum(!is.na(study_data$decision_correct_rate_E))
 records_count_decision_correct_rate_R <- sum(!is.na(study_data$decision_correct_rate_R))
 records_count_age <- sum(!is.na(study_data$age))
@@ -196,8 +198,9 @@ min_hct <- min(hct_evaluation, na.rm = TRUE)
 max_hct <- max(hct_evaluation, na.rm = TRUE)
 sd_hct <- sd(hct_evaluation, na.rm = TRUE)
 
-frequencies_decision_correct_rate_E <- table(study_data$decision_correct_rate_E, useNA = "no")
-frequencies_decision_correct_rate_R <- table(study_data$decision_correct_rate_R, useNA = "no")
+
+frequencies_decision_correct_rate_E <- table(round(study_data$decision_correct_rate_E, 1), useNA = "no")
+frequencies_decision_correct_rate_R <- table(round(study_data$decision_correct_rate_R, 1), useNA = "no")
 
 procent_decision_correct_rate_E <- prop.table(frequencies_decision_correct_rate_E)
 procent_decision_correct_rate_R <- prop.table(frequencies_decision_correct_rate_R)
@@ -206,7 +209,7 @@ all_categories <- sort(unique(c(names(procent_decision_correct_rate_E),
                                 names(procent_decision_correct_rate_R))))
 
 categorical_data_table <- data.frame(
-  Variable = c("Decision Correct Rate E", "Decision Correct Rate R"), 
+  Variable = c("Anteil richtige Antworten - Evaluatives KI-Modell", "Anteil richtige Antworten - Empfehlendes KI-Modell"), 
   matrix(0, nrow = 2, ncol = length(all_categories))
 )
 colnames(categorical_data_table)[-1] <- all_categories
@@ -224,7 +227,8 @@ categorical_data_table %>%
     decimals = 1
   ) %>%
   tab_header(
-    title = "Antwortverteilung bei kategorialen Variablen"
+    title = "Antwortverteilung",
+    subtitle = "Kategoriale Variablen"
   )
 
 metric_data_table <- data.frame(
