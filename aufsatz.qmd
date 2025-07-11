@@ -4,15 +4,17 @@ date: today
 author: "Melina Esen, Eric Ansorge, Sophie Spektor, Lina Woeste und Linnea Lund"
 format:
     html: default
-    pdf: default
-papersize: "a4"
-number-sections: true
-number-depth: 1
-fontsize: "12"
+    pdf:
+      papersize: "a4"
+      fontsize: "12"
+      number-sections: true
+      number-depth: 1
+      
 editor: visual
 bibliography: references.bib
 csl: apa.csl
 style: "american-psychological-association"
+lang: de
 ---
 
 **GitHub Repository:** https://github.com/linnealund/SMNF-Gruppe-A5
@@ -77,9 +79,9 @@ Die Analyse erfolgte mittels thematischer Analyse der Transkripte. Wir haben die
 
 ## Quantitative Methode
 
-![](images/PAKO_E~1.PNG)
+![Studienablauf](images/PAKO_E~1.PNG){#fig-studienablauf}
 
-Zur Untersuchung von möglichen Unterschieden zwischen evaluativer und empfehlender künstlicher Intelligenz, besonders in Bezug auf Variablen wie Workload, Genauigkeit, Vertrauen und weitere, wurde ein between-subjects-Design gewählt. Hierbei werden TeilnehmerInnen zufällig eine von den zwei KI-Varianten zugeteilt, wodurch je die Hälfte der Beantwortungen sich auf eine der KI-Varianten beziehen. Auch beinhaltet unsere Studie ein within-subject-Design, welches zuerst das Bewerten ohne und folgend mit KI-Unterstützung vorsieht. Insgesamt haben wir uns für eine Kombination aus beiden und somit zu einem Mixed Design entschieden. 
+Zur Untersuchung von möglichen Unterschieden zwischen evaluativer und empfehlender künstlicher Intelligenz, besonders in Bezug auf Variablen wie Workload, Genauigkeit, Vertrauen und weitere, wurde ein between-subjects-Design gewählt. Hierbei werden TeilnehmerInnen zufällig eine von den zwei KI-Varianten zugeteilt, wodurch je die Hälfte der Beantwortungen sich auf eine der KI-Varianten beziehen. Auch beinhaltet unsere Studie ein within-subject-Design, welches zuerst das Bewerten ohne und folgend mit KI-Unterstützung vorsieht. Insgesamt haben wir uns für eine Kombination aus beiden und somit zu einem Mixed Design entschieden.
 
 Der Ablauf unserer Studie sieht zu Beginn das Ausfüllen einer Datenschutzerklärung vor. Hier wird sichergestellt, dass die TeilnehmerInnen über die Handhabung ihrer persönlichen Daten informiert werden und sie über die Datenschutzrichtlinien aufgeklärt werden. Hierauf folgt ein Pre-Test-Fragebogen, welcher die grundlegenden Merkmale unserer ProbandInnen erfragt, wie zum Beispiel das Alter. Durch diese Merkmale beziehungsweise Variablen lassen sich die Daten einordnen und analysieren. Mit einem kleinen Tutorial wird man in die kommenden Aufgaben eingeführt. Im nächsten Ablaufschritt beginnt man nun mit den Experimenten. Hier werden die TeilnehmerInnen dazu aufgefordert 10 Posts ohne die Hilfe von künstlicher Intelligenz als Misinformation oder korrekte Information zu klassifizieren. Nach der Bewertung dieser Posts folgt ein Post-Baseline-Fragebogen, um die Empfindungen der Arbeitsbelastung der zuvor ausgeführten Aufgabe festzustellen. Nun kommt es zum nächsten Experiment, wo nicht wie zuvor nur die ProbandInnen über die Bewertung der Posts entscheiden, sondern auch KI genutzt wird. Eingeteilt werden die ProbandInnen zufällig zu einer von zwei Experiment-Versionen. Die erste bezieht eine evaluierende KI ein und die zweite eine empfehlende KI. Hier durchlaufen sie wie zuvor 10 Posts und werden aufgefordert diese zu klassifizieren. Zum Abschluss der Studie füllen sie einen finalen Post-Test-Fragebogen aus, werden verabschiedet und erhalten eine kurze Danksagung für ihre Teilnahme.  
 
@@ -113,6 +115,8 @@ Für die Interviews haben wir insgesamt zwei NutzerInnen befragt und die Intervi
 | \[T2\] Vereinfachte Darstellung | Um den Überblick behalten zu können, sollten die Antworten der KI in Stichpunkten oder kurzen Absätzen passieren. | "Dass man einen Überblick hat über die Informationen, die man da gerade kriegt." (A5_2, Zeile 168-169) |
 | \[T3\] Kontrolle über die Nutzung | Die NutzerInnen sollen selbst entscheiden können, wann und in welchen Umfang sie die KI nutzen. | "Ich bin eher dafür, die Möglichkeit zu haben, es an- und auszuschalten, da ich der Meinung bin, dass jeder seine eigenen Präferenzen hat und es auch Leute gibt, die nicht KI nutzen möchten \[...\]." (A5_1, Zeile 223-225) |
 
+: Thematische Analyse {#tbl-thematische-analyse}
+
 Für die Interviews haben wir insgesamt zwei NutzerInnen befragt und die Interviews dann analysiert. Dabei haben wir darauf geachtet, Personen mit unterschiedlichen Perspektiven und Vorkenntnissen auszuwählen. Eine Person hat sich selbst bereits mit diesem Thema im akademischen Kontext befasst und die andere Person nutzt KI manchmal in ihrem Alltag, hat des weiteren aber keine spezifischen Kenntnisse.
 
 Beide Probanden haben Bedenken zur Glaubwürdigkeit der Aussagen der KI \[T1\] geäußert, besonders wenn es um Belegung der Aussagen durch entsprechende Quellen geht.
@@ -127,40 +131,6 @@ Unsere ProbandInnen betonen zudem, dass die NutzerInnen selbst entscheiden könn
 
 ## Quantitative Ergebnisse
 
-**Stichprobe**
-
-Für unsere Studie zum Thema KI als Hilfsmittel zur Detektion von Misinformationen haben wir die Daten von diversen ProbandInnen (*N* = 176) gesammelt. Davon waren insgesamt 84 ProbandInnen männlich und 90 weiblich. Des Weiteren beinhaltet die Studie eine diverse und eine non-binary teilnehmende Person.
-
-Ebenso können die ProbandInnen anhand ihres Alters differenziert werden. Hierbei ergab sich eine Altersspanne von 18 (Mindestalter zur Teilnahme an der Studie) bis 69 Jahren. Aus diesen Daten folgt ein Durchschnittsalter von *M* = 25.9 Jahren mit einer Standardabweichung von *SD* = 10.6 Jahren. Darüber hinaus liegt der Median bei *Mdn* = 22 Jahren.
-
-Bei der Auswertung unserer gesammelten Daten haben wir uns mit der Abhängigkeit von Alter und Vertrauen in KI beschäftigt. Vor diesem Hintergrund haben wir unseren Fokus nicht auf das Geschlecht, sondern primär auf das Alter der ProbandInnen gelegt und somit die gesamte Altersspanne betrachtet.
-
-Die Generalisierbarkeit können wir, da wir uns größtenteils auf die Eigenschaft Alter fokussieren, auch nur für den Bereich einschätzen. Wir vermuten, dass unsere Studie generalisiert werden kann, da unsere Altersspanne so weit ist.
-
-**Deskriptive Statistik**
-
-Für unsere Studie haben wir mehrere Variablen benutzt, um unsere Forschungsfragen beantworten zu können. Diese sind “Korrektheit/Ergebnis” und “Systemtyp” im Zusammenhang miteinander, außerdem “Alter” im Zusammenhang zu “Vertrauen ins System”. Die metrische Variable “Korrektheit/Ergebnis” befasst sich damit, ob beim Identifizieren der Missinformationen richtig entschieden wurde.
-
-Die damit verbundene Variable “Systemtyp” umfasst zwei verschiedene KI-Modelle. Diese sind evaluativ (E) und empfehlend (R). Der Mittelwert liegt beim evaluativen Modell *M* = 0.765 und beim empfehlenden Modell bei *M* = 0.767.
-
-Die metrische Variable “Alter” umfasst das Alter aller ProbandInnen in Jahren. Die Teilnehmenden waren zwischen 18 und 69 Jahre alt. Der Mittelwert lag bei *M* = 25.9, mit einer Standardabweichung von *SD* = 10.6, was auf eine relativ junge, aber dennoch heterogene Stichprobe hinweist.
-
-Unsere letzte Variable, die wir betrachtet haben, ist “Vertrauen ins System”. Dabei geht es darum wie viel Vertrauen die ProbandInnen in KI-Systeme haben, um Missinformationen im Netzt zu detektieren und auszusortieren.
-
-**Inferenzstatistik**
-
-Die Analyse erfolgte mittels eines unverbundenen T-Tests. Dabei haben wir untersucht, ob es innerhalb der Variable “Systemtyp” einen Unterschied in der Erfolgsquote bei der Aufdeckung von Missinformationen zwischen dem Evaluativen (E) und dem Empfehlenden (R) KI-System gibt. Dabei haben wir uns die Daten aller 176 ProbandInnen angeschaut.
-
-In der folgenden Abbildung 1 sieht man die aus der Studie ergebenen Werte, welche wir im Folgenden weiter analysiert haben.
-
-Aus unseren Daten ergibt sich, dass beide Modelle ähnlich gut funktioniert haben. Die Differenz der durchschnittlichen Korrektheit des evaluativen Modells (*M* = 0.76, *SD* = 0.16) und des empfehlenden Modells (*M* = 0.76, *SD* = 0.14) war nicht signifikant (*t*(174) = -0.08, *p* \> .05).
-
-Bei der Korrelationsanalyse haben wir uns, wie zuvor erwähnt, für die Variablen “Age” in Korrelation zu “Vertrauen in Umgang mit KI” entschieden. Auch hier haben wir uns die Daten aller 176 ProbandInnen angeschaut, um eine möglichst große Altersspanne zu haben. In der folgenden Abbildung 2 sieht man die aus der Studie folgenden Werte, welche wir anschließend analysiert haben.
-
-Abbildung 2 stellt den Zusammenhang zwischen Age und Human-Computer-Trust dar.
-
-Aus unseren Daten ergibt sich, dass es zwar eine kleine Abnahme an Vertrauen in die KI gibt, je älter die ProbandInnen sind, jedoch reichen die Daten nicht aus, um einen eindeutigen Zusammenhang zwischen den beiden Variablen zu identifizieren. Es besteht also kein Zusammenhang zwischen dem Alter und dem Vertrauen in die Nutzung von KI (*r*(174) = -0.132 , *p* = .080). Das bedeutet, dass ein höheres Alter nicht direkt mit einem geringeren Vertrauen in die KI einhergeht.
-
 ```{r echo=FALSE, message=FALSE}
 
 library(dplyr)
@@ -170,9 +140,7 @@ library(psych)
 library(gt)
 library(tinytex)
 
-study_data <- read.csv("~/SMNF-Gruppe-A5/2025-06-10/open/data_combined.csv", header = TRUE, sep = ",", fill = TRUE)
-
-View(data_combined)
+study_data <- read.csv("C:/Users/linni/Documents/Statistik-Gruppe-A5/2025-06-10/open/data_combined.csv", header = TRUE, sep = ",", fill = TRUE)
 
 records_count_decision_correct_rate_E <- sum(!is.na(study_data$decision_correct_rate_E))
 records_count_decision_correct_rate_R <- sum(!is.na(study_data$decision_correct_rate_R))
@@ -202,64 +170,117 @@ sd_hct <- sd(hct_evaluation, na.rm = TRUE)
 frequencies_decision_correct_rate_E <- table(round(study_data$decision_correct_rate_E, 1), useNA = "no")
 frequencies_decision_correct_rate_R <- table(round(study_data$decision_correct_rate_R, 1), useNA = "no")
 
-procent_decision_correct_rate_E <- prop.table(frequencies_decision_correct_rate_E)
-procent_decision_correct_rate_R <- prop.table(frequencies_decision_correct_rate_R)
+#procent_decision_correct_rate_E <- prop.table(frequencies_decision_correct_rate_E)
+#procent_decision_correct_rate_R <- prop.table(frequencies_decision_correct_rate_R)
 
-all_categories <- sort(unique(c(names(procent_decision_correct_rate_E),
-                                names(procent_decision_correct_rate_R))))
+#all_categories <- sort(unique(c(names(procent_decision_correct_rate_E),
+#                                names(procent_decision_correct_rate_R))))
 
-categorical_data_table <- data.frame(
-  Variable = c("Anteil richtige Antworten - Evaluatives KI-Modell", "Anteil richtige Antworten - Empfehlendes KI-Modell"), 
-  matrix(0, nrow = 2, ncol = length(all_categories))
-)
-colnames(categorical_data_table)[-1] <- all_categories
+#categorical_data_table <- data.frame(
+#  Variable = c("Anteil richtige Antworten - Evaluatives KI-Modell", "Anteil richtige Antworten - Empfehlendes KI-Modell"), 
+#  matrix(0, nrow = 2, ncol = length(all_categories))
+#)
+#colnames(categorical_data_table)[-1] <- all_categories
+#
+#categorical_data_table[1, -1] <- procent_decision_correct_rate_E[all_categories]
+#categorical_data_table[2, -1] <- procent_decision_correct_rate_R[all_categories]
+#
+#categorical_data_table[is.na(categorical_data_table)] <- 0
 
-categorical_data_table[1, -1] <- procent_decision_correct_rate_E[all_categories]
-categorical_data_table[2, -1] <- procent_decision_correct_rate_R[all_categories]
 
-categorical_data_table[is.na(categorical_data_table)] <- 0
+#categorical_data_table %>%
+#  gt() %>%
+#  fmt_percent(
+#    columns = where(is.numeric),
+#    decimals = 1
+#  ) %>%
+#  tab_header(
+#    title = "Antwortverteilung",
+#    subtitle = "Kategoriale Variablen"
+#  )
 
+mean_frequencies_decision_correct_rate_E <- mean(frequencies_decision_correct_rate_E, na.rm = TRUE)
+median_frequencies_decision_correct_rate_E <- median(frequencies_decision_correct_rate_E, na.rm = TRUE)
+min_frequencies_decision_correct_rate_E <- min(frequencies_decision_correct_rate_E, na.rm = TRUE)
+max_frequencies_decision_correct_rate_E <- max(frequencies_decision_correct_rate_E, na.rm = TRUE)
+sd_frequencies_decision_correct_rate_E <- sd(frequencies_decision_correct_rate_E, na.rm = TRUE)
 
-categorical_data_table %>%
-  gt() %>%
-  fmt_percent(
-    columns = where(is.numeric),
-    decimals = 1
-  ) %>%
-  tab_header(
-    title = "Antwortverteilung",
-    subtitle = "Kategoriale Variablen"
-  )
-
-metric_data_table <- data.frame(
-  Variable = c("age", "hct_all"),
-  AnzahlRecords = c(records_count_age, records_count_hct_r01),
-  Mittelwert = c(mean_age, mean_hct),
-  Median = c(median_age, median_hct),
-  Minimum = c(min_age, min_hct),
-  Maximum = c(max_age, max_hct),
-  Standardabweichung = c(sd_age, sd_hct)
-  )
-
-metric_data_table %>%
-  gt() %>%
-  fmt_number(columns = where(is.numeric), decimals = 2) %>%
-  tab_header(
-    title = "Deskriptive Statistiken",
-    subtitle = "Metrische Variablen"
-  )
-
+mean_frequencies_decision_correct_rate_R <- mean(frequencies_decision_correct_rate_R, na.rm = TRUE)
+median_frequencies_decision_correct_rate_R <- median(frequencies_decision_correct_rate_R, na.rm = TRUE)
+min_frequencies_decision_correct_rate_R <- min(frequencies_decision_correct_rate_R, na.rm = TRUE)
+max_frequencies_decision_correct_rate_R <- max(frequencies_decision_correct_rate_R, na.rm = TRUE)
+sd_frequencies_decision_correct_rate_R <- sd(frequencies_decision_correct_rate_R, na.rm = TRUE)
 
 decision_correct_R_data <- data.frame(decision_correct_rate_R = study_data$decision_correct_rate_R)
 decision_correct_R_data <- decision_correct_R_data[!is.na(decision_correct_R_data$decision_correct_rate_R), , drop = FALSE]
 decision_correct_E_data <- data.frame(decision_correct_rate_E = study_data$decision_correct_rate_E)
 decision_correct_E_data <- decision_correct_E_data[!is.na(decision_correct_E_data$decision_correct_rate_E), , drop = FALSE]
+```
 
+**Stichprobe**
 
+Für unsere Studie zum Thema KI als Hilfsmittel zur Detektion von Misinformationen haben wir die Daten von diversen ProbandInnen (*N* = 176) gesammelt. Davon waren insgesamt 84 ProbandInnen männlich und 90 weiblich. Des Weiteren beinhaltet die Studie eine diverse und eine non-binary teilnehmende Person.
+
+Ebenso können die ProbandInnen anhand ihres Alters differenziert werden. Hierbei ergab sich eine Altersspanne von 18 (Mindestalter zur Teilnahme an der Studie) bis 69 Jahren. Aus diesen Daten folgt ein Durchschnittsalter von *M* = 25.9 Jahren mit einer Standardabweichung von *SD* = 10.6 Jahren. Darüber hinaus liegt der Median bei *Mdn* = 22 Jahren.
+
+Bei der Auswertung unserer gesammelten Daten haben wir uns mit der Abhängigkeit von Alter und Vertrauen in KI beschäftigt. Vor diesem Hintergrund haben wir unseren Fokus nicht auf das Geschlecht, sondern primär auf das Alter der ProbandInnen gelegt und somit die gesamte Altersspanne betrachtet.
+
+Die Generalisierbarkeit können wir, da wir uns größtenteils auf die Eigenschaft Alter fokussieren, auch nur für den Bereich einschätzen. Wir vermuten, dass unsere Studie generalisiert werden kann, da unsere Altersspanne so weit ist.
+
+**Deskriptive Statistik**
+
+```{r echo=FALSE, message=FALSE}
+#| label: tbl-anteil-richtiger-antworten
+#| tbl-cap: "Statistische Kennzahlen der Variablen des t-Tests"
+
+metric_data_table <- data.frame(
+  Variable = c("Anteil richtiger Antworten - Evaluatives KI-Modell", "Anteil richtiger Antworten - Empfehlendes KI-Modell"),
+  N = format(c(records_count_decision_correct_rate_E, records_count_decision_correct_rate_R), nsmall = 0),
+  M = c(mean_frequencies_decision_correct_rate_E, mean_frequencies_decision_correct_rate_R),
+  Mdn = c(median_frequencies_decision_correct_rate_E, median_frequencies_decision_correct_rate_R),
+  Min = c(min_frequencies_decision_correct_rate_E, min_frequencies_decision_correct_rate_R),
+  Max = c(max_frequencies_decision_correct_rate_E, max_frequencies_decision_correct_rate_R),
+  SD = c(sd_frequencies_decision_correct_rate_E, sd_frequencies_decision_correct_rate_R)
+  )
+
+metric_data_table %>%
+  gt() %>%
+  fmt_number(columns = where(is.numeric), decimals = 2)
+```
+
+```{r echo=FALSE, message=FALSE}
+#| label: tbl-alter-und-vertrauen
+#| tbl-cap: "Statistische Kennzahlen der Variablen der Korrelation"
+
+metric_data_table <- data.frame(
+  Variable = c("Alter", "Vertrauen ins System"),
+  N = format(c(records_count_age, records_count_hct_r01), nsmall = 0),
+  M = c(mean_age, mean_hct),
+  Mdn = c(median_age, median_hct),
+  Min = c(min_age, min_hct),
+  Max = c(max_age, max_hct),
+  SD = c(sd_age, sd_hct)
+  )
+
+metric_data_table %>%
+  gt() %>%
+  fmt_number(columns = where(is.numeric), decimals = 2)
+```
+
+Für unsere Studie haben wir mehrere Variablen benutzt, um unsere Forschungsfragen beantworten zu können. Diese sind “Korrektheit/Ergebnis” und “Systemtyp” im Zusammenhang miteinander, außerdem “Alter” im Zusammenhang zu “Vertrauen ins System”. Die metrische Variable “Korrektheit/Ergebnis” befasst sich damit, ob beim Identifizieren der Missinformationen richtig entschieden wurde.
+
+Die damit verbundene Variable “Systemtyp” umfasst zwei verschiedene KI-Modelle. Diese sind evaluativ (E) und empfehlend (R). Der Mittelwert liegt beim evaluativen Modell *M* = 0.765 und beim empfehlenden Modell bei *M* = 0.767.
+
+Die metrische Variable “Alter” umfasst das Alter aller ProbandInnen in Jahren. Die Teilnehmenden waren zwischen 18 und 69 Jahre alt. Der Mittelwert lag bei *M* = 25.9, mit einer Standardabweichung von *SD* = 10.6, was auf eine relativ junge, aber dennoch heterogene Stichprobe hinweist.
+
+Unsere letzte Variable, die wir betrachtet haben, ist “Vertrauen ins System”. Dabei geht es darum wie viel Vertrauen die ProbandInnen in KI-Systeme haben, um Missinformationen im Netzt zu detektieren und auszusortieren.
+
+**Inferenzstatistik**
+
+```{r echo=FALSE, message=FALSE}
 
 result_ttest <- t.test(decision_correct_R_data$decision_correct_rate_R, decision_correct_E_data$decision_correct_rate_E, var.equal = TRUE)
 print(result_ttest)
-
 
 result_correct_rate <- data.frame(
   value = c(decision_correct_R_data$decision_correct_rate_R, decision_correct_E_data$decision_correct_rate_E),
@@ -276,31 +297,52 @@ summary_stats <- result_correct_rate %>%
     se = sd / sqrt(n),
     .groups = "drop"
   )
+```
+
+```{r echo=FALSE, message=FALSE}
+#| label: fig-ttest
+#| fig-cap: "t-Test: KI-System und Korrektheit"
 
 ggplot(summary_stats, aes(x = group, y = mean)) +
   geom_point(size = 4, color = "blue") +
   geom_errorbar(aes(ymin = mean - se, ymax = mean + se), width = 0.2) +
   labs(
-    title = "t-Test: KI-System und Korrektheit",
     x = "Gruppe",
     y = "Durchschnitt"
   )
+```
 
+Die Analyse erfolgte mittels eines unverbundenen T-Tests. Dabei haben wir untersucht, ob es innerhalb der Variable “Systemtyp” einen Unterschied in der Erfolgsquote bei der Aufdeckung von Missinformationen zwischen dem Evaluativen (E) und dem Empfehlenden (R) KI-System gibt. Dabei haben wir uns die Daten aller 176 ProbandInnen angeschaut.
 
+In der folgenden sieht man die aus der Studie ergebenen Werte, welche wir im Folgenden weiter analysiert haben.
+
+Aus unseren Daten ergibt sich, dass beide Modelle ähnlich gut funktioniert haben. Die Differenz der durchschnittlichen Korrektheit des evaluativen Modells (*M* = 0.76, *SD* = 0.16) und des empfehlenden Modells (*M* = 0.76, *SD* = 0.14) war nicht signifikant (*t*(174) = -0.08, *p* \> .05).
+
+```{r echo=FALSE, message=FALSE}
 cor_age_hct_r_all <- cor(surveydata$age, surveydata$hct, use = "complete.obs", method = "pearson")
 
 cor.test(surveydata$age, surveydata$hct, use = "complete.obs", method = "pearson")
+
+```
+
+```{r echo=FALSE, message=FALSE}
+#| label: fig-korrelation
+#| fig-cap: "Korrelation: Alter und Vertrauen in das System"
 
 ggplot(surveydata, aes(x = age, y = hct)) + 
   geom_point() +
   geom_smooth(method = "lm", se = FALSE, color = "blue") + 
   labs(
-  title = "correlation",
-  x = "age",
-  y = "Human-Computer-Trust_r_all"
+  x = "Alter",
+  y = "Vertrauen ins System"
 )
-
 ```
+
+Bei der Korrelationsanalyse haben wir uns, wie zuvor erwähnt, für die Variablen “Age” in Korrelation zu “Vertrauen in Umgang mit KI” entschieden. Auch hier haben wir uns die Daten aller 176 ProbandInnen angeschaut, um eine möglichst große Altersspanne zu haben. In der folgenden Abbildung 2 sieht man die aus der Studie folgenden Werte, welche wir anschließend analysiert haben.
+
+Abbildung 2 stellt den Zusammenhang zwischen Age und Human-Computer-Trust dar.
+
+Aus unseren Daten ergibt sich, dass es zwar eine kleine Abnahme an Vertrauen in die KI gibt, je älter die ProbandInnen sind, jedoch reichen die Daten nicht aus, um einen eindeutigen Zusammenhang zwischen den beiden Variablen zu identifizieren. Es besteht also kein Zusammenhang zwischen dem Alter und dem Vertrauen in die Nutzung von KI (*r*(174) = -0.132 , *p* = .080). Das bedeutet, dass ein höheres Alter nicht direkt mit einem geringeren Vertrauen in die KI einhergeht.
 
 # Diskussion
 
